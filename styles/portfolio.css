@@ -33,6 +33,7 @@ nav li a{
     font-size: 20px;
 }
 
+/* shared style */
 .dark-1{
     color: #181818;
 }
@@ -45,6 +46,21 @@ nav li a{
     color: #757575;
 }
 
+.section-title{
+    font-size: 35px;
+    font-weight: 700;
+    color: #181818;
+}
+
+.section-description{
+    font-size: 18px;
+    font-weight: 400;
+    color: #757575;
+}
+
+.secondary-bg{
+    background-color: #FFF8F3;
+}
 nav ul{
     display: flex;
     align-items: center;
@@ -61,14 +77,20 @@ nav ul{
 
 }
 
+.text-center{
+    text-align: center;
+}
+
 .banner-greetings{
     font-weight: 600;
     font-size: 45px;
+    margin-bottom: 0;
 }
 
 .banner-title{
     font-weight: 700;
     font-size: 85px;
+    margin:5px 86px 20px 1px;
 }  
 
 .banner-description{
@@ -89,7 +111,98 @@ nav ul{
 }
 
 .header{
-    background-image: url(../images/developer.png), url(../images/header_bg.png) ;
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
     background-repeat: no-repeat;
     background-position: top left, bottom right;
+}
+/* main styles */
+main{
+    max-width: 1140px;
+    margin: 130px auto ;
+}
+
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-bottom: 130px;
+}
+
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+
+.item-title{
+    
+}
+
+.item-descrption{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.skills-container{
+    display: flex;
+    gap: 24px;
+    margin-bottom: 130px;
+}
+
+.skill{
+    border: ;
+    padding: 30px;
+    box-shadow: 10px 10px 50px 0px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+}
+
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+
+.experience-title{
+    font-weight: 700;
+    font-size: 25;
+    margin-bottom: 10px;
+}
+
+.erperience-sub-title{
+    font-weight: 600;
+    font-size: 20;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+.experience-description{
+    font-weight: 400;
+    font-size: 16;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+.resume-download-cv{
+    text-align: center;
+    margin-top: 50px;
+}
+
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+
+.footer-column{
+    width: 50%;
+}
+
+footer input[type=text], footer input[type=email], footer textarea{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+    color: #757575;
 }
